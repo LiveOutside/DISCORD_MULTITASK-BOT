@@ -6,7 +6,7 @@ from tic_tac_toe import TicTacToeCog
 
 client = commands.Bot(command_prefix='!')
 
-TOKEN = 'OTY4NTE1OTM2MTExOTg0NjQx.Ymf-wQ.pS3kTUuTlTloP8jtwIanrD9gXYU'
+TOKEN = ''
 client.remove_command('help')
 client.add_cog(HelpCog(client))
 client.add_cog(MusicCog(client))
